@@ -20,15 +20,15 @@ The app offers below 4 key features from main menu
 - ADJUST COMPARISON SETTINGS
 - COMPARE JOB OFFERS
 
-<img src="image/HomePage.png" height="400">
+<img src="image/HomePage.PNG" height="400">
 
 **1. ENTER CURRENT JOB:** User can use this feature to enter details of current job. Selecting this opens a new screen "Enter Current Job Details". If current job information is already available, same is displayed on this screen. Otherwise, you can provide information as per UI prompts and save it using "SAVE" button. Saving current job information would display a toast "Current job details updated successfully" on UI. User at any point of time can click on "CANCEL" button and app will be navigated backed to MENU screen. App has implemented field level validations for all job details. Numerical fields viz., Cost of Living Index, Yearly Salary, Signing Bonus, Retirement Benefits and Leave Time are initialized to 0 and 0.0 as applicable for user convenience. In the entire form, only "Title" and "Company" are mandatory fields. Rest all fields are optional for user entry.
 
-<img src="image/EnterCurrentJob.png" height="400" width="300">
+<img src="image/EnterCurrentJob.PNG" height="400" width="300">
 
 **2. ENTER JOB OFFERS:** Selecting this option on main menu "MENU" navigates user to "Enter Job Offers" screen. On this screen, you can enter information about job offers. Only "Title" and "Company" fields are mandatory, rest all information is optional. When user enters job offer details and click on "SAVE" button, entered data will be saved to database and a message "Job Offer saved successfully!".
 
-<img src="image/EnterJobOffers.png" height="400" width="300">
+<img src="image/EnterJobOffers.PNG" height="400" width="300">
 
  **a. ENTER ANOTHER OFFER:** User can use this option to enter a new job offer information.
 <br><br>

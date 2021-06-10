@@ -3,7 +3,7 @@
 
 
 ### Introduction: 
-JobComparison is an Android app used to compare job offers. It also has features to compare newly added job offers with current job details. App factors cost of living index and user provided comparison settings to compute adjusted values of salary components and perform comparison when requested.
+JobCompare is an Android app used to compare job offers. It also has features to compare newly added job offers with current job details. App factors cost of living index and user provided comparison settings to compute adjusted values of salary components and perform comparison when requested.
 
 ### Class Diagram:
 ![Class Diagram](image/class_diagram.png)

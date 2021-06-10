@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/compsetting_leaveTimeID"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintBottom_toTopOf="@+id/compsetting_cancelButtonID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compsetting_retirementBenefitID"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/compsetting_retirementBenefitID"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compsetting_yearlyBonusID" />
+
+    <EditText
+        android:id="@+id/compsetting_yearlyBonusID"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compsetting_signingBonusID" />
+
+    <EditText
+        android:id="@+id/compsetting_signingBonusID"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compsetting_yearlySalaryID" />
+
+    <TextView
+        android:id="@+id/comparisonSettingHeaderID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:text="Adjust Comprison Settings"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/et_YearlySalaryWeight"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/yearly_salary_weight"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/compsetting_yearlySalaryID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comparisonSettingHeaderID" />
+
+    <TextView
+        android:id="@+id/et_SigningBonus"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/signing_bonus_weight"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/compsetting_signingBonusID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_YearlySalaryWeight" />
+
+    <TextView
+        android:id="@+id/et_YearlyBonus"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/yearly_bonus_weight"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/compsetting_yearlyBonusID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_SigningBonus" />
+
+    <TextView
+        android:id="@+id/et_RetirementBenefits"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/retirement_benefits_weight"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/compsetting_retirementBenefitID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_YearlyBonus" />
+
+    <TextView
+        android:id="@+id/et_LeaveTime"
+        android:layout_width="230dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/leave_time_weight"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/compsetting_leaveTimeID"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_RetirementBenefits" />
+
+    <Button
+        android:id="@+id/compsetting_saveButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/save_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_LeaveTime" />
+
+    <Button
+        android:id="@+id/compsetting_cancelButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/cancel_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/compsetting_saveButtonID"
+        app:layout_constraintTop_toBottomOf="@+id/et_LeaveTime" />
+
+    <EditText
+        android:id="@+id/compsetting_yearlySalaryID"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comparisonSettingHeaderID" />
+</androidx.constraintlayout.widget.ConstraintLayout>

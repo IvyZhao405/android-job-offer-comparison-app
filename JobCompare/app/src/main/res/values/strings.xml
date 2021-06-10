@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JobCompare</string>
+    <string name="current_job">Current Job</string>
+    <string name="job_offer">Job Offer</string>
+    <string name="title">Title:</string>
+    <string name="company">Company:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="cost_of_living_index">Cost of Living Index:</string>
+    <string name="yearly_salary">Yearly Salary:</string>
+    <string name="signing_bonus">Signing Bonus:</string>
+    <string name="yearly_bonus">Yearly Bonus:</string>
+    <string name="retirement_benefits">Retirement Benefits:</string>
+    <string name="leave_time">Leave Time:</string>
+    <string name="save_button">SAVE</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="back_button">BACK</string>
+    <string name="compare_with_current_button">COMPARE WITH CURRENT JOB</string>
+    <string name="enter_another_offer_button">ENTER ANOTHER OFFER</string>
+    <string name="compare_button">COMPARE</string>
+    <string name="another_comparison_button">ANOTHER COMPARISON</string>
+    <string name="location">Location:</string>
+    <string name="yearly_salary_weight">Yearly Salary Weight:</string>
+    <string name="signing_bonus_weight">Signing Bonus Weight:</string>
+    <string name="yearly_bonus_weight">Yearly Bonus Weight:</string>
+    <string name="retirement_benefits_weight">Retirement Benefits Weight:</string>
+    <string name="leave_time_weight">Leave Time Weight:</string>
+</resources>

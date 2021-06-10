@@ -1,4 +1,4 @@
-## UserManual - JobCompare - Android App
+## JobCompare - Android App
 
 
 
